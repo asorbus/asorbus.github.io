@@ -1,6 +1,6 @@
 baseURL = 'https://asorbus.github.io/'
 title = 'Reflexionen'
-theme = 'paper'
+#theme = 'paper'
 author = "ASANUMA Kouki"
 copyright = "Copyright © 2009–2024, ASANUMA Kouki; all rights reserved."
 paginate = 5
@@ -36,4 +36,6 @@ DefaultContentLanguage = "ja"
   #graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
 
 
-
+[module]
+  [[module.imports]]
+    path = "github.com/nanxiaobei/hugo-paper"
