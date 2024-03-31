@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polyphia on Reflexionen</title>
+    <link>http://localhost:1313/tags/polyphia/</link>
+    <description>Recent content in Polyphia on Reflexionen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>Copyright © 2009–2024, ASANUMA Kouki; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 01 Nov 2022 00:32:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/polyphia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>インヒューマンについて</title>
+      <link>http://localhost:1313/posts/221101/</link>
+      <pubDate>Tue, 01 Nov 2022 00:32:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/221101/</guid>
+      <description>〈インヒューマン〉とは何だろうか。&#xA;〈マスロック〉というジャンルの音楽を最近よく聴いている。〈マス〉というのは〈数学〉に由来し、〈数理のように緻密に構築された〉という意味らしい。スティーブ・ライヒやディシプリンの頃のキング・クリムゾンのような複雑極まりないポリリズムを土台として、その上に歪みを抑えたギターが技巧の限りを尽して奏でられるインストゥルメンタルが主流である。意外にもルーツは、クラシックやジャズではなく、プリミティブなパンク・ロックにあり、それが極限まで複雑化したものらしい。一見同じように見えても、出自や成長の経緯が異なっているので、定義に拘泥しすぎないほうがよさそうだ。&#xA;この種のテクニカルな音楽を日本人は得意とし、国内にも少なくないが、主に海外で高い評価を受けている。ただ私自身はポリフィアやコヴェットを特に好み、前者のAviatorや後者のNeroは私を忘我に導いてくれる。&#xA;レビューに〈インヒューマン〉の語があった。コンピュータによる作曲が当たり前になると、生楽器による再現が困難になり、それに見合った技術が要求される。コンピューターで作曲した楽曲を通常の楽器で演奏するのに何の苦も感じていないように見える若者に、私は機械を潜り抜けた人間の姿を見る。</description>
+    </item>
+  </channel>
+</rss>

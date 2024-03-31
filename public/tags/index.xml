@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Reflexionen</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Reflexionen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>Copyright © 2009–2024, ASANUMA Kouki; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 02 Oct 2023 07:45:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kyoto School</title>
+      <link>http://localhost:1313/tags/kyoto-school/</link>
+      <pubDate>Mon, 02 Oct 2023 07:45:00 +0900</pubDate>
+      <guid>http://localhost:1313/tags/kyoto-school/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Asanuma</title>
+      <link>http://localhost:1313/tags/asanuma/</link>
+      <pubDate>Sat, 17 Dec 2022 09:53:00 +0900</pubDate>
+      <guid>http://localhost:1313/tags/asanuma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Polyphia</title>
+      <link>http://localhost:1313/tags/polyphia/</link>
+      <pubDate>Tue, 01 Nov 2022 00:32:00 +0900</pubDate>
+      <guid>http://localhost:1313/tags/polyphia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gabriel</title>
+      <link>http://localhost:1313/tags/gabriel/</link>
+      <pubDate>Fri, 30 Sep 2022 10:14:00 +0900</pubDate>
+      <guid>http://localhost:1313/tags/gabriel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jacobi</title>
+      <link>http://localhost:1313/tags/jacobi/</link>
+      <pubDate>Wed, 28 Sep 2022 22:05:00 +0900</pubDate>
+      <guid>http://localhost:1313/tags/jacobi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meillassoux</title>
+      <link>http://localhost:1313/tags/meillassoux/</link>
+      <pubDate>Wed, 28 Sep 2022 22:05:00 +0900</pubDate>
+      <guid>http://localhost:1313/tags/meillassoux/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

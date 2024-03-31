@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gabriel on Reflexionen</title>
+    <link>http://localhost:1313/tags/gabriel/</link>
+    <description>Recent content in Gabriel on Reflexionen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>Copyright © 2009–2024, ASANUMA Kouki; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 30 Sep 2022 10:14:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/gabriel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ガブリエルへの疑問</title>
+      <link>http://localhost:1313/posts/220930/</link>
+      <pubDate>Fri, 30 Sep 2022 10:14:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/220930/</guid>
+      <description>マルクス・ガブリエルに関する私の疑問は、彼の思想において〈ない〉と〈ある〉がどのように内的に連関しているか、という問いに集約される。ガブリエルには専門的著作と通俗的著作の二種類があるが、フィヒテの例からも明らかなように、後者は前者のエッセンスを煮詰めこそすれ、薄めたりはしない。そこで『なぜ世界は存在しないのか』と『私は脳ではない』という二つの著作を取り上げると、共に軸となっているのは〈ない〉から〈ある〉への転換である。つまり〈世界は存在しない〉から〈無数の意味の場が存在する〉へ、〈私は脳ではない〉から〈私は精神である〉への翻転が試みられている。これによって大切なことが語られているのは間違いない。しかしこの二つの議論において〈ない〉から〈ある〉への移行がどのように遂行されているのかは杳としている。しかもこの不明瞭は〈ない〉と〈ある〉と呼ばれている二つの事態へも逆流し、そこに蟠踞している。かつて上田閑照は「私は私である」という命題を「私は私でないがゆえに私である」という命題に書き換えようとした（世界についても同様のことが提案されている）。上田のこのような定式を踏まえると、ガブリエルの場合には〈ある〉の内に〈ない〉が十分に深く織り込まれていないという感じは否めない。ガブリエルの説く〈意味〉や〈精神〉という概念が旧套を脱していないように感じられるのも、そのことと無関係ではないだろう。しかしガブリエルを遠景にして眺めると、上田の発言も深く玩味できるような面がある。例えば、西田や田邊の場合には、このような否定性は常に〈弁証法〉という強迫観念に纏わりつかれているが、ガブリエルや上田になると、そのような呪縛は消えてしまい、非弁証法的性格が強調されているように思われる。</description>
+    </item>
+  </channel>
+</rss>
