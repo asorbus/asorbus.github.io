@@ -3,8 +3,8 @@ title = "info"
 +++
 
 - Info
-  - [Researchmap](https://researchmap.jp/7000010542/):memo:
+  - [Researchmap](https://researchmap.jp/7000010542/) 📝
 - Contact 
-  - [Email](mailto:asanuma.kouki@outlook.com):envelope:
+  - [Email](mailto:asanuma.kouki@outlook.com) ✉
 - Support
-  - [Buy me a book](https://www.buymeacoffee.com/asorbus):closed_book:
+  - [Buy me a book](https://www.buymeacoffee.com/asorbus) 📖
