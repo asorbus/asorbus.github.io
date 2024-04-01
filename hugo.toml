@@ -39,11 +39,6 @@ googleAnalytics = "G-379G9T9FKD"
 [menu]
 
   [[menu.main]]
-    identifier = "tag"
-    name = "tags"
-    url = "/tags/"
-    weight = 10
-  [[menu.main]]
     identifier = "info"
     name = "info"
     url = "/info/"
@@ -51,7 +46,6 @@ googleAnalytics = "G-379G9T9FKD"
 
 [taxonomies]
 tag = "tags"
-
 
 [module]
   [[module.imports]]
