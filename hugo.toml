@@ -36,6 +36,22 @@ googleAnalytics = "G-379G9T9FKD"
   math = false                               # enable KaTeX math typesetting globally
   #graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
 
+[menu]
+
+  [[menu.main]]
+    identifier = "tag"
+    name = "tags"
+    url = "/tags/"
+    weight = 10
+  [[menu.main]]
+    identifier = "info"
+    name = "info"
+    url = "/info/"
+    weight = 10
+
+[taxonomies]
+tag = "tags"
+
 
 [module]
   [[module.imports]]
