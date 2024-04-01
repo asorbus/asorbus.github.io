@@ -7,4 +7,4 @@ title = "info"
 - Contact
   - [Email](mailto:asanuma.kouki@outlook.com)
 - Support
-  - [Buy me a coffee](https://www.buymeacoffee.com/asorbus)
+  - [Buy Me A Book](https://www.buymeacoffee.com/asorbus)
