@@ -1,10 +1,12 @@
-baseURL = 'https://asorbus.github.io/'
-title = 'Reflexionen'
-author = "ASANUMA Kouki"
-copyright = "Copyright © 2009–2024, ASANUMA Kouki; all rights reserved."
-paginate = 5
+baseURL = 'https://asorbus.info/'
+
 languageCode = "ja"
 DefaultContentLanguage = "ja"
+hasCJKLanguage = true
+
+title = 'Reflexionen'
+author = "ASANUMA Kouki"
+paginate = 5
 
 googleAnalytics = "G-379G9T9FKD"
 
