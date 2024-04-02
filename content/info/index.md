@@ -1,8 +1,8 @@
 +++
-title = ""
+title = "Info"
 +++
 
-- Info
+- About
   - [Researchmap](https://researchmap.jp/7000010542/) 📝
 - Contact 
   - [Email](mailto:asanuma.kouki@outlook.com) 📫
