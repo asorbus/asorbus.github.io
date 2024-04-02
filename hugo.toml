@@ -32,7 +32,7 @@ googleAnalytics = "G-379G9T9FKD"
     weight = 1
  [[menu.main]]
     identifier = "tag"
-    name = "tag 🔖"
+    name = "tags 🔖"
     url = "/tags/"
     weight = 2
  [[menu.main]]
