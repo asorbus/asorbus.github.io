@@ -1,29 +1,6 @@
-<!DOCTYPE html>
-{{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
-<head>
-<meta charset="utf-8">
-<title>{{ .Title }} Cloud -- {{ .Site.Title }}</title>
-<style>
-ul.cloud {
-    list-style: none;
-    padding: 0
-}
-ul.cloud > li {
-    display: inline-block;
-    margin: 0 0.5rem;
-}
-</style>
-</head>
-<body>
-<h1>{{ .Title }} Cloud</h1>
+{{ main }}
 
-<ul class="cloud">{{ $plural := .Data.Plural }}
-{{ range $key, $value := .Data.Terms }}
-    <li><a href="/{{ $plural }}/{{ $key | urlize }}">{{ $key }}</a> ({{ len $value }})</li>
-{{ end }}
-</ul>
-
-    {{ if isset .Site.Taxonomies "tags" }}
+{{ if isset .Site.Taxonomies "tags" }}
 	{{ if not (eq (len .Site.Taxonomies.tags) 0) }}
 	<div data-pagefind-ignore class="panel sidebar-menu">
 		<div class="panel-heading">
@@ -64,7 +41,4 @@ ul.cloud > li {
 	{{ end }}
 {{ end }}
 
-</body>
-<html>
-
-
+{{ end }}
