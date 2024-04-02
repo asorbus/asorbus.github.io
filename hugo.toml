@@ -30,11 +30,11 @@ googleAnalytics = "G-379G9T9FKD"
     name = "info ℹ"
     url = "/info/"
     weight = 1
-  #[[menu.main]]
-  #  identifier = "search"
-  #  name = "search 🔍"
-  #  url = "/search/"
-  #  weight = 2
+  [[menu.main]]
+    identifier = "search"
+    name = "search 🔍"
+    url = "/search/"
+    weight = 2
 
 [taxonomies]
    tag = "tags"
