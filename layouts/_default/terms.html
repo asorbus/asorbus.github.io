@@ -23,5 +23,48 @@ ul.cloud > li {
 {{ end }}
 </ul>
 
+    {{ if isset .Site.Taxonomies "tags" }}
+	{{ if not (eq (len .Site.Taxonomies.tags) 0) }}
+	<div data-pagefind-ignore class="panel sidebar-menu">
+		<div class="panel-heading">
+			<h1 class="panel-title">Tags
+			</h1>
+		</div>
+		<div class="panel-body">
+			<ul class="tag-cloud center">
+				{{ range $name, $items := .Site.Taxonomies.tags }}
+					{{ if and (ne $name "radio") (ne $name "about") (ne $name "")}}
+						{{ $len := len $items }}
+						{{ if lt $len 2 }}
+							<li><a style="font-size: 10px" class="btn btn-transparent" href="{{ $.Site.BaseURL }}tags/{{ $name | urlize | lower }}"> {{ $name | title }} <span class="" style="color: #AAA; font-size: 12px; text-decoration: none;">({{ len $items }})</span></a></li>
+						{{ else if le $len 3}}
+							<li><a style="font-size: 12px" class="btn btn-transparent" href="{{ $.Site.BaseURL }}tags/{{ $name | urlize | lower }}"> {{ $name | title }} <span class="" style="color: #AAA; font-size: 12px; text-decoration: none;">({{ len $items }})</span></a></li>
+						{{ else if le $len 5}}
+							<li><a style="font-size: 14px" class="btn btn-transparent" href="{{ $.Site.BaseURL }}tags/{{ $name | urlize | lower }}"> {{ $name | title }} <span class="" style="color: #AAA; font-size: 12px; text-decoration: none;">({{ len $items }})</span></a></li>
+						{{ else if le $len 7}}
+							<li><a style="font-size: 16px" class="btn btn-transparent" href="{{ $.Site.BaseURL }}tags/{{ $name | urlize | lower }}"> {{ $name | title }} <span class="" style="color: #AAA; font-size: 12px; text-decoration: none;">({{ len $items }})</span></a></li>
+						{{ else if le $len 9}}
+							<li><a style="font-size: 17px" class="btn btn-transparent" href="{{ $.Site.BaseURL }}tags/{{ $name | urlize | lower }}"> {{ $name | title }} <span class="" style="color: #AAA; font-size: 12px; text-decoration: none;">({{ len $items }})</span></a></li>
+						{{ else if le $len 11}}
+							<li><a style="font-size: 18px" class="btn btn-transparent" href="{{ $.Site.BaseURL }}tags/{{ $name | urlize | lower }}"> {{ $name | title }} <span class="" style="color: #AAA; font-size: 12px; text-decoration: none;">({{ len $items }})</span></a></li>
+						{{ else if le $len 15}}
+							<li><a style="font-size: 19px" class="btn btn-transparent" href="{{ $.Site.BaseURL }}tags/{{ $name | urlize | lower }}"> {{ $name | title }} <span class="" style="color: #AAA; font-size: 12px; text-decoration: none;">({{ len $items }})</span></a></li>
+						{{ else if le $len 30}}
+							<li><a style="font-size: 20px" class="btn btn-transparent" href="{{ $.Site.BaseURL }}tags/{{ $name | urlize | lower }}"> {{ $name | title }} <span class="" style="color: #AAA; font-size: 12px; text-decoration: none;">({{ len $items }})</span></a></li>
+						{{ else if le $len 60}}
+							<li><a style="font-size: 21px" class="btn btn-transparent" href="{{ $.Site.BaseURL }}tags/{{ $name | urlize | lower }}"> {{ $name | title }} <span class="" style="color: #AAA; font-size: 12px; text-decoration: none;">({{ len $items }})</span></a></li>
+						{{ else if le $len 120}}
+							<li><a style="font-size: 22px" class="btn btn-transparent" href="{{ $.Site.BaseURL }}tags/{{ $name | urlize | lower }}"> {{ $name | title }} <span class="" style="color: #AAA; font-size: 12px; text-decoration: none;">({{ len $items }})</span></a></li>
+						{{end}}
+					{{ end }}
+				{{ end }}
+			</ul>
+		</div>
+	</div>
+	{{ end }}
+{{ end }}
+
 </body>
 <html>
+
+
