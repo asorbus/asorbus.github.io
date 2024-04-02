@@ -1,5 +1,5 @@
 +++
-title = "info ℹ "
+title = "info"
 +++
 
 - Info

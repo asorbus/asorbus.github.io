@@ -40,7 +40,7 @@ googleAnalytics = "G-379G9T9FKD"
 
   [[menu.main]]
     identifier = "info"
-    name = "info"
+    name = "ℹ"
     url = "/info/"
     weight = 10
 
