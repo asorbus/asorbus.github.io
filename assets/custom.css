@@ -1,1 +1,4 @@
-.tags_item{font-size: 13pt;}
+.tags_item{
+font-size: 13pt;
+text-decoration:none;
+}
