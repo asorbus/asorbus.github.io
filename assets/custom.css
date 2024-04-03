@@ -1,6 +1,9 @@
 .tags_item{
 font-size: 13pt;
 }
-a{
+.tags_item a{
+text-decoration: none;
+}
+.tags_item *{
 text-decoration: none;
 }
