@@ -11,7 +11,7 @@ paginate = 5
 googleAnalytics = "G-379G9T9FKD"
 
 [params]
-  color = 'wheat' 
+  color = 'linen' 
 
   twitter = 'asorbus'
   rss = true  
